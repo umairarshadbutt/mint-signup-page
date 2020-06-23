@@ -1,0 +1,213 @@
+body {
+  background-color: #eceef1;
+  position: relative;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  margin-top: -10px;
+}
+
+nav {
+  display: flex;
+  float: right;
+}
+
+li {
+  list-style-type: none;
+  line-height: 1.5;
+  text-align: left;
+  color: #505050;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.logo {
+  margin-left: 30%;
+}
+
+.partners-logo {
+  position: relative;
+  width: 76%;
+  height: 40px;
+  left: 9%;
+  font-size: 18px;
+}
+
+form {
+  margin-bottom: 22px;
+  font-size: 14px;
+  color: #505050;
+  position: relative;
+}
+
+form img {
+  margin-bottom: -5px;
+}
+
+.partners-logo img {
+  margin-top: 8px;
+}
+
+h1,
+p {
+  text-align: center;
+  font-weight: 100;
+}
+
+.form-section {
+  height: 700px;
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+  margin-bottom: 120px;
+}
+
+section p {
+  margin: 0 6% 30px 6%;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  background-color: #2c72c6;
+  color: white;
+  font-size: 20px;
+  width: 82%;
+  height: 34px;
+  margin-left: 7%;
+  margin-top: 20px;
+}
+
+.signup-form input {
+  border: 1px solid #c1c5c8;
+  margin: 10px 10px;
+  margin-left: 7%;
+  color: #404040;
+  font-size: 16px;
+  display: block;
+  height: 30px;
+  width: 80%;
+}
+
+label {
+  margin: 10px 10px;
+  margin-left: 7%;
+  color: #404040;
+  font-size: 16px;
+}
+
+.phone-hint {
+  margin-left: 30px;
+  text-align: left;
+}
+
+.form-footer {
+  background-color: #eceef1;
+  text-align: center;
+  padding: 20px;
+}
+
+.phone-hint,
+footer p,
+li,
+section .form-footer {
+  font-size: 12px;
+}
+
+.terms-para {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 15% 30px 15%;
+}
+
+.form-fields {
+  background: white;
+  margin-top: 20px;
+  color: #505050;
+  border: 1px solid #c1c5c8;
+}
+
+.logos {
+  position: relative;
+  top: 6px;
+  width: 25px;
+  height: 25px;
+}
+
+.signin_button {
+  color: white;
+  margin-top: 15px;
+  margin-left: 10px;
+  background: #2c72c6;
+  border-radius: 4px;
+  height: 36px;
+  width: 86px;
+  border: none;
+}
+
+.signin_button img {
+  margin-bottom: -7px;
+}
+
+.input_lock {
+  position: absolute;
+  bottom: 74px;
+  right: 50px;
+}
+
+footer {
+  margin-top: 170px;
+  text-align: center;
+}
+
+footer a {
+  color: #505050;
+}
+
+.partners-logo a {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #505050;
+}
+
+footer ul {
+  margin: 0 auto;
+}
+
+footer ul li {
+  text-align: center;
+  display: inline-block;
+}
+
+footer p {
+  color: #505050;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 3px;
+  right: 8%;
+  background: #6b6c72;
+  border-radius: 4px;
+}
+
+.footer-anchor {
+  width: 180px;
+  height: 40px;
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: center;
+  line-height: 2.5;
+}
+
+@media (max-width: 767px) {
+  header nav {
+    display: none;
+  }
+}
